@@ -9,4 +9,12 @@ Los metodos mas utilizados son
 Get, Post, Put y Delete
 
 
+Los query parameters son los que se reciben a traves de la URL despues del PATH. 
+Los query parameters se encuentra despues de un signo de interrogación "?" despues
+del nombre de un parámetro, un igual "=" o un valor asignado
+
+
+
+
+
 
