@@ -14,6 +14,9 @@ Los query parameters se encuentra despues de un signo de interrogación "?" desp
 del nombre de un parámetro, un igual "=" o un valor asignado
 
 
+Los Path parameters son aquellos que llegan a traves de ka ruta del endpoint 
+Estos parametros llegan como parte de la ruta despues deun slash "/" se usan para acceder
+o filtrar la informacion de un objeto o un recurso en especifico 
 
 
 
