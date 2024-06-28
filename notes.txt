@@ -1,0 +1,12 @@
+
+
+En desarrollo web, un ednpoint es un punto a traves de la cual se realizan solicitudes o requests
+a un servidor
+Permite el envio y la recepción de datos a traves del protocolo HTTP
+Cuando se define un endpoint se define el méroto HTTP
+que indica qué es lo que se le quiere solicitar al servidor. 
+Los metodos mas utilizados son 
+Get, Post, Put y Delete
+
+
+
