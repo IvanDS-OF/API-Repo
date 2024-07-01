@@ -28,7 +28,12 @@ suelen recibir datos a traves del body para la creación y actualización de dat
 
 
 
-
+    /Modelos
+Es la estructura o esquema de un objeto. Se define con el fin de manejar los datos de la aplicacion
+Los modelos tambien permiten el intercambio de datos entre la aplicacion y una base de datos 
+Para la definicion de modelos en FastAPI podemos hacer uso de la librería PyDantic
+Los modelos pueden ser, tanto los datos recibidos como los que entrega
+Los modelos que se definien con Pydantic, tienenque ser hijas de Base Model
 
 
 
