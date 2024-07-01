@@ -40,3 +40,13 @@ recibiremos un error 404 que nos indica que algo no está bien en los datos inpu
 
 
 
+//Path operation
+Es el nombre que se le da a la definicion de un endpoint en FastAPI, Al definir un Path Operator tendremos un 
+path operator decorator que nos ayuda a definir el método HTTP y un Patb Operation Function que 
+hacer referencia a la funcion y por ende, a lo que nuestro Endpoint va a realizar
+
+
+
+
+
+
