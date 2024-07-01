@@ -35,7 +35,8 @@ Para la definicion de modelos en FastAPI podemos hacer uso de la librería PyDan
 Los modelos pueden ser, tanto los datos recibidos como los que entrega
 Los modelos que se definien con Pydantic, tienenque ser hijas de Base Model
 
-
+Los modelos igualmente nos ayudan a validar los datos de entrada, en caso de no cumplirse algún parametro
+recibiremos un error 404 que nos indica que algo no está bien en los datos input
 
 
 
