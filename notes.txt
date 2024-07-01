@@ -47,6 +47,11 @@ hacer referencia a la funcion y por ende, a lo que nuestro Endpoint va a realiza
 
 
 
-
+//Tareas Asincronas 
+A diferencia de la programación sincrona, esta nos permite que varias tareas sean ejecutadas al mismo tiempo
+Mientras una tarea inicia, otra puede estar siendo procesada al mismo tiempo. en Python se le conoce como
+CONCURRENCIA
+Con FastAPI las funciones se definen con async, de esta marea FastAPI nos permitira manejar multiples 
+peticiones al mismo tiempo 
 
 
