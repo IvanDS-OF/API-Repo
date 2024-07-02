@@ -55,3 +55,24 @@ Con FastAPI las funciones se definen con async, de esta marea FastAPI nos permit
 peticiones al mismo tiempo 
 
 
+
+//Uso de formularios
+Igulamente podemos hacer uso de formularios para recibir informacion, que es una versión más cómoda de 
+hacer uso de un script JSON a traves del body.  Recordar la librería PYTHON-MULTIPART
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
