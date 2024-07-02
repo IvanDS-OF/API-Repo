@@ -78,7 +78,15 @@ NewFolder - routers
 
 
 //Tags
-Pa
+Es posible ordenar aun más nuestro proyecto con el uso de Tags, que es para hacer más legible el proyecto
+a la hora de hacer uso de el mediante la GUI de FastAPI
+Las tag pueden ser separadas incluso desde los modulos de Endpoints. 
+
+
+
+
+
+
 
 
 

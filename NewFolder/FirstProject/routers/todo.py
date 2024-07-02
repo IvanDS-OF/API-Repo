@@ -5,7 +5,9 @@ from typing import Optional, Annotated
 #Following the change of creating an instance called router, we need to bring all the database created
 #to this file
 
-router = APIRouter()
+router = APIRouter(
+    tags=["TodoMethods"]
+) #We can separate the methos in this endpoint with tags
 
 
 todo_list = [{"id": 1,"description": "Learning Python" ,"completed": True}, 
