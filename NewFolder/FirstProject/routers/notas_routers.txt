@@ -1,0 +1,14 @@
+Por cada tipo de endpoint que tengamos vamos a crear un nuevo modulo
+o archivo dentro de nuestra carpeta "routers" 
+
+Descomponemos nuetro main main para dividirlo en las secciones que sean necesarioas 
+Para este proyecto lo vamos a separar en dos, la parte de TODO y la de Support
+
+IMPORTANTE - Las librerías que se usan en cada uno de los archivos separados TIENEN QUE TENER LAS 
+LIBRERÍAS QUE SE ESTAN UTILIZNAOD- FastAPI, typing, etc
+
+Inicialmente cuandno nuestro archivo es separado nos maracrá errores porque no tenemos definida nuestra
+instancia "app", es por eso que hacemos uso de nuestro router 
+Una librería de FastAPI llamada APIRouter y en cada unas de los archivos es necesario crear una instancia
+de tipo APIRouter
+Tenemos que cambiar el nombre de @app a @router

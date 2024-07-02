@@ -62,18 +62,23 @@ hacer uso de un script JSON a traves del body.  Recordar la librería PYTHON-MUL
 
 
 
-//MA¿anipulacion de archivos en un edpoint con FastAPI
+//Manipulacion de archivos en un edpoint con FastAPI
 Es posible cargar archivos dentro del cuarpo de la petición. Generalemte, el nombre del archivo es guardado 
 en la base de datos y el contenido del archivo son almacenados en un servicio de almacenamiento - como Dockers
 Usamos las clases de File and UploadFile de FastAPI
 
 
+//APIRouter
+Es una clase de FastAPI que permite MODULARIZAR el proyecto lo que hace que este sea más organizado
+y escalable. El Router permite separar por modulos los endpoints (path operations) 
+Es necesario realizar una configuración inicial del proyecto (carpetas y subcarpetas así como archivos especiales)
+NewFolder - routers
+    NewFile - routers - __init__.py
+    Es necesario crear eeste archiov para que Python lo reconozca como un paquete parte de la app
 
 
-
-
-
-
+//Tags
+Pa
 
 
 
