@@ -83,9 +83,15 @@ a la hora de hacer uso de el mediante la GUI de FastAPI
 Las tag pueden ser separadas incluso desde los modulos de Endpoints. 
 
 
-
-
-
+//Middleware 
+Es una funcion que puede ejecutarse con cada petición de la API antes de que esta sea procesada. Igual puede ser
+sjecutada antesd de entregar cada respuesta en una peticion. El Proceso consiste en 
+Recibir una petición - Hacer algo antes o despuesd de la petición (en algunos casos Modificarla)
+    Y Retornar la respuesta de la petición 
+El Middleware siempre tiene que hacer 3 cosas: 
+EJECUTAR LA peticion
+OBTENER SU RESPUESTA 
+RETORNARLA
 
 
 
